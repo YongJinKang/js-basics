@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;600;700&family=Noto+Sans+KR:wght@700&display=swap");
+
 * {
   box-sizing: border-box;
   margin-bottom: 25px;
@@ -13,12 +16,13 @@
 }
 
 body {
-  width: 100%;
+  font-family: "Yeon Sung", cursive;
   height: 100%;
   color: white;
   display: flex;
   flex-direction: column;
   text-align: center;
+  justify-content: center;
 }
 .weather {
   display: flex;
@@ -63,12 +67,14 @@ body {
   outline: none;
   color: white;
   width: 75%;
+  font-family: "Yeon Sung", cursive;
 }
 
 .js-form input::placeholder {
   font-weight: 400;
   color: white;
   font-size: 40px;
+  font-family: "Yeon Sung", cursive;
 }
 
 .js-toDoForm {
@@ -87,14 +93,16 @@ body {
   color: white;
   width: 75%;
   height: 200px;
-  font-size: 40px;
+  font-size: 25px;
   flex-wrap: wrap;
+  font-family: "Yeon Sung", cursive;
 }
 
 .js-toDoForm input::placeholder {
   font-weight: 400;
   color: white;
   font-size: 25px;
+  font-family: "Yeon Sung", cursive;
 }
 
 .form,
@@ -124,14 +132,27 @@ body {
 }
 
 .js-toDoList li {
-  margin-right: 80px;
+  margin: 0px 40px;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.66);
+  border-radius: 15px;
+  text-align: center;
+  height: 70px;
+  font-size: 30px;
+  padding: 0px 9px;
+  padding-top: 80px;
+
+  font-family: "Yeon Sung", cursive;
 }
 .js-toDoList button {
-  border-radius: 25px;
+  border-radius: 15px;
   margin-left: 8px;
   background-color: transparent;
   border: none;
   font-weight: 1000;
+  color: white;
+  font-size: 30px;
+  margin-left: 30px;
 }
