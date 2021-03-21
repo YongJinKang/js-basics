@@ -1,11 +1,14 @@
 const clockContainer = document.querySelector(".js-clock"),
-  clockTitle = document.querySelector(".js-clock-title");
+  clockTitle = clockContainer.querySelector(".js-clock-title");
 
 
 
 function getTime(){
     const date = new Date();
-    x
+    const minutes = date.getMinutes()
+    const hours = date.getHours()
+    const seconds = date.getSeconds();
+    
     clockTitle.innerText = `${
         hours < 10 ? `0${hours}` : hours
     }:${
