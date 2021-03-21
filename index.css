@@ -40,7 +40,6 @@ body {
 .js-clock-title {
   color: white;
   font-size: 150px;
-  padding-bottom: 0;
 }
 .main {
   display: flex;
@@ -94,7 +93,6 @@ body {
   width: 75%;
   height: 200px;
   font-size: 25px;
-  flex-wrap: wrap;
   font-family: "Yeon Sung", cursive;
 }
 
@@ -118,7 +116,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 1800px;
   height: 100%;
   z-index: -1;
   animation: fadeIn 1.5s linear;
@@ -126,9 +124,10 @@ body {
 
 .js-toDoList {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   font-size: 20px;
+  width: 100%;
 }
 
 .js-toDoList li {
@@ -139,7 +138,8 @@ body {
   background-color: rgba(0, 0, 0, 0.66);
   border-radius: 15px;
   text-align: center;
-  height: 70px;
+  height: 100px;
+  width: 25%;
   font-size: 30px;
   padding: 0px 9px;
   padding-top: 80px;
